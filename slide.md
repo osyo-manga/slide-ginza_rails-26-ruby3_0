@@ -294,13 +294,10 @@ user in { name: String, age: (..20) }
 ```
 
 ```ruby
-# Ruby 2.7
+# マッチしなかった場合の挙動が変わった
 { name: "mami", age: 30 } in { name: String, age: (..20) }
-# => raise  NoMatchingPatternError
-
-# Ruby 3.0
-{ name: "mami", age: 30 } in { name: String, age: (..20) }
-# => false
+# 2.7 => raise  NoMatchingPatternError
+# 3.0 => false
 ```
 
 >>>
@@ -339,6 +336,7 @@ pp users.select { _1 in { name: /^m/, age: (..15) } }
 * 最新版では真理値を返さない 1行 in と同じ挙動になった
 * 最新版では真理値を返さない 1行 in と同じ挙動になった
     * つまり Ruby 2.7 のときの 1行 in とだいたい同じ挙動
+* 経緯とか [[Feature #17371] Reintroduce `expr in pat` - Secret Garden(Instrumental)](https://secret-garden.hatenablog.com/entry/2020/12/17/010901)
 
 >>>
 
