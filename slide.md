@@ -726,7 +726,10 @@ end
 * [irb の複数行コードの貼付けがめっちゃ早くなった](https://github.com/ruby/reline/pull/186)
     * 2.7 と比較して 53倍早くなった
 * `Hash#except` が標準に入った
-
+* yaml のパフォーマンスが上がった
+    * [[Bug #17101] YAML.load_file: Massive slowdown under Ruby 2.7 vs. Ruby 2.4](https://bugs.ruby-lang.org/issues/17101)
+* [OpenStruct で既存のメソッドを呼び出せるようになった](https://secret-garden.hatenablog.com/entry/2020/12/08/000219)
+    * `Object#then` みたいに定義済みメソッドと同名の要素が定義できるようになった
 
 ---
 
