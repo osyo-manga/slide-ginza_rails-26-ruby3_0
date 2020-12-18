@@ -30,6 +30,7 @@
 * 最近 AST から Ruby のコードを復元する記事や Ruby 基礎文法最速マスターって記事を書いたので気になる人は読んでみてね
     * [Ruby の AST から Ruby のソースコードを復元しよう](https://secret-garden.hatenablog.com/entry/2020/12/01/093316)
     * [令和時代の Ruby 基礎文法最速マスター](https://secret-garden.hatenablog.com/entry/2020/12/01/232816)
+* [Ruby 3.0 Advent Calendar 2020](https://qiita.com/advent-calendar/2020/ruby3) やってます
 
 ---
 
@@ -733,11 +734,6 @@ end
 
 ---
 
----
-
-
----
-
 ## まとめ
 
 ---
@@ -749,7 +745,8 @@ end
 * 今回書ききれなかった機能とかはたくさんあるのでぜひ [NEWS](https://github.com/ruby/ruby/blob/master/NEWS.md) に目を通しておくといいと思います
 * 個人的にはパターンマッチが一番注目の機能
     * 早くパターンマッチを使って気持ちよく Ruby のコードを書きたい…
-
+* この話を聞いって Ruby 3.0 に興味を持たれた方はぜひぜひ preview2 や最新版の Ruby を試してもらえると幸いです
+* Ruby 3.1 には新しい機能を追加したい
 
 ---
 
